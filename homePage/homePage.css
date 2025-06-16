@@ -7,7 +7,6 @@ body {
     display: flex;
     margin-right: 10px;
     justify-content: space-between;
-    font-size: 23px;
 }
 
 .selected-lang:before {
@@ -17,7 +16,6 @@ body {
     height: 48px;
     margin-right: 10px;
     background-image: url("https://flagsapi.com/GB/flat/48.png");
-    vertical-align: middle;
 }
 
 nav {
@@ -26,6 +24,8 @@ nav {
     line-height: 2.5;
     background-color: black;
     color: white;
+    font-size: 23px;
+    font-family: "Permanent Marker", cursive;
 }
 
 .pfp {
@@ -38,8 +38,6 @@ nav {
 .navButton {
     color: whitesmoke;
     text-decoration: none;
-    font-family: "Permanent Marker", cursive;
-    font-size: 23px;
 }
 
 .navButton:hover {
@@ -49,8 +47,8 @@ nav {
 .lang-meun ul {
     border: 1px solid silver;
     background-color: black;
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     font-size: 18px;
     display: none;
     position: absolute;
@@ -59,7 +57,7 @@ nav {
 .lang-meun ul li {
     list-style: none;
     box-shadow: 0px 1px 10px white;
-    
+
     justify-content: space-between;
 }
 
@@ -112,4 +110,31 @@ a {
 
 .lang {
     margin: 0px;
+}
+
+h1 {
+    margin: 0%;
+}
+
+.heroImage {
+    background-image: url(../assets/heroImage.png);
+}
+
+.heroText {
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-size: 125px
+}
+
+.name {
+    color: red;
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 150px;
+    transform: rotate(-6deg);
+}
+
+.title {
+    padding-top: 150px;
+    padding-bottom: 170px;
+    text-align: center;
 }
