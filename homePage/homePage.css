@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    background-color: black;
 }
 
 .selected-lang {
@@ -12,10 +13,11 @@ body {
 .selected-lang:before {
     content: '';
     display: block;
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     margin-right: 10px;
-    background-image: url("https://flagsapi.com/GB/flat/48.png");
+    background-image: url("https://flagsapi.com/GB/flat/64.png");
+    margin-top: 14px;
 }
 
 nav {
@@ -24,13 +26,13 @@ nav {
     line-height: 2.5;
     background-color: black;
     color: white;
-    font-size: 23px;
+    font-size: 35px;
     font-family: "Permanent Marker", cursive;
 }
 
 .pfp {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     margin: 5px;
 }
@@ -117,7 +119,7 @@ h1 {
 }
 
 .heroImage {
-    background-image: url(../assets/heroImage.png);
+    background-image: url(../assets//images/heroImage.png);
 }
 
 .heroText {
@@ -137,4 +139,24 @@ h1 {
     padding-top: 150px;
     padding-bottom: 170px;
     text-align: center;
+}
+
+main {
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: whitesmoke;
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+tr, th {
+    border: 1px solid #dddddd;
+}
+
+.tableTitles {
+    font-size: 60px;
 }
